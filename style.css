@@ -1,0 +1,43 @@
+#container {
+    margin: 0 auto;
+    display: block;
+}
+
+#root {
+    position: absolute;
+    width: 1024px;
+    height: 756px;
+    background: #cdcdcd;
+    left: 50%;
+    margin-left: -384px;
+    /* отрицательный отступ равный 1/2 ширины (width) позиционируемого блока */
+}
+
+#plane {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid black;
+    top: 50%;
+}
+
+#up {
+    border: 1px solid lightblue;
+    height: 45%
+}
+
+#forward {
+    height: 10%
+}
+
+#down {
+    border: 1px solid green;
+    height: 45%;
+}
+
+#bird {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid black;
+    top: 50px;
+    left: 50px;
+}
